@@ -2,7 +2,7 @@ version: "3"
 
 services:
   kafka:
-    image: wurstmeister/kafka:2.13-2.6.0
+    image: wurstmeister/kafka:2.13-2.7.0
     ports:
       - "9094:9094"
     environment:
